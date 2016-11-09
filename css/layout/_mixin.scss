@@ -1,0 +1,47 @@
+// @extend %clearfix;
+%clearfix {
+    &:before,
+    &:after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
+}
+
+
+
+@mixin fonts( $size: $fs_body, $line_height: $lh_body ,$style: $family_body, $color: $color_font_body) {
+    @if($style==b) {
+        color: $color;
+        font: $size/$line_height 'OpenSansBold';
+    }
+    @else if($style==bi) {
+        color: $color;
+        font: $size/$line_height 'OpenSansBoldItalic';
+    }
+    @else if($style==eb) {
+        font: $size/$line_height 'OpenSansExtraBold';
+    }
+    @else if($style==ebi) {
+        font: $size/$line_height 'OpenSansExtraBoldItalic';
+    }
+    @else if($style==sb) {
+        font: $size/$line_height 'OpenSansSemibold';
+    }
+    @else if($style==sbi) {
+        font: $size/$line_height 'OpenSansSemiboldItalic';
+    }
+    @else if($style==i) {
+        font: $size/$line_height 'OpenSansItalic';
+    }
+    @else if($style==l) {
+        font: $size/$line_height 'OpenSansLight';
+    }
+    @else if($style==li) {
+        font: $size/$line_height 'OpenSansLightItalic';
+    }
+    @else if($style==reg) {
+        font: $size/$line_height 'OpenSansRegular';
+    }
+
+}

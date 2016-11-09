@@ -1,0 +1,33 @@
+$c_gray-l: #232020;
+$c_gray-b: #121111;
+$c_pink-l: #f17398;
+$c_pink-b: #db577e;
+$c_blue: #2f343a;
+$fs_body: 18px;
+$lh_body: 25px;
+$family_body:'OpenSansLight';
+$color_font_body: #fff;
+
+@import 'layout/mixin';
+@import 'layout/fonts';
+@import 'layout/adjustment';
+@import 'section/header';
+@import 'section/nav';
+@import 'section/searchform';
+@import 'section/description';
+@import 'section/recently';
+@import 'section/whatis';
+@import 'section/hearwhat';
+@import 'section/oursponsors';
+@import 'section/meetourteam';
+@import 'section/map';
+@import 'section/message';
+@import 'section/media';
+
+
+
+
+
+
+@import 'section/footer';
+

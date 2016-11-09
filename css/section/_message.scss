@@ -1,0 +1,104 @@
+.message{
+	margin-bottom: 120px;
+}
+
+.message__container{
+	    display: flex;
+    justify-content: space-between;
+}
+
+.form__message-container {
+	max-width: 660px;
+	width: 100%;
+	display: block;	
+}
+.form__message-input {
+	font: 18px/28px 'OpenSansLight';
+	color: #999999;
+	width: 49%;
+	height: 40px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	padding-left: 5px;
+	box-sizing: border-box;
+	&:focus {
+		border-color: #999999;
+		border-radius: 5px;
+		outline: none;
+	}
+}
+.form__message-textarea {
+	font: 18px/28px 'OpenSansLight';
+	display: inline-block;
+	color: #999999;
+	height: 140px;
+	max-width: 660px;
+	width: 100%;
+	border: 1px solid transparent;
+	margin-bottom: 50px;
+	&:focus {
+		border-color: #999999;
+		border-radius: 5px;
+		outline: none;
+	}
+}
+.message__address {
+	width: 320px;
+	display: block;	
+}
+.h3__title {}
+.message__address-table {
+	font-size: 0;
+}
+.message__address-row {
+	display: inline-block;
+	width: 100%;
+	
+}
+.message__address-col {
+	display: inline-block;
+	font-size: 0;
+	vertical-align: top;
+}
+.message__address-col_one {
+	font: 17px/28px 'OpenSansSemibold';
+	color: #0b0e11;
+	width: 80px;
+	
+}
+.message__address-col_two {
+	font: 18px/28px 'OpenSansLight';
+	color: #999999;
+	width: 240px;
+	
+}
+.h3__title-geoicon {
+	background: url(/image/icon/footer_icon-loc.png) no-repeat 0% 80%;
+	margin-bottom: 30px;
+	text-align: left;
+	padding-left: 35px;
+}
+.h3__title-people{
+	background: url(/image/icon/footer_icon-people.png) no-repeat 0% 35%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: left;
+	padding-left: 35px;
+	}
+.message__address-about {
+	font: 18px/25px 'OpenSansLight';
+	display: inline-block;
+	color: #999999;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
